@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.FiltersFragment"
+    android:layout_marginBottom="65dp">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/cardViewDocente"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:layout_gravity="center_vertical"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginTop="10dp"
+           app:cardElevation="2dp"
+
+           >
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="horizontal"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               >
+
+               <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:src="@drawable/icon_docente"
+                   android:background="@color/colorBlue"
+                   android:layout_gravity="center_vertical"
+
+                   android:padding="7dp" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:gravity="center_vertical"
+                   android:layout_marginLeft="20dp"
+                   android:textSize="20dp"
+                   android:text="DOCENTE" />
+
+           </LinearLayout>
+
+       </androidx.cardview.widget.CardView>
+
+      <androidx.cardview.widget.CardView
+          android:id="@+id/cardViewDirectivo"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:layout_marginTop="10dp"
+          app:cardElevation="2dp"
+          >
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+             >
+
+              <ImageView
+                  android:layout_width="100dp"
+                  android:layout_height="100dp"
+                  android:src="@drawable/icon_directivo"
+                  android:background="@color/colorGreen"
+                  android:layout_gravity="center_vertical"
+                  android:padding="10dp" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:gravity="center_vertical"
+                  android:layout_marginLeft="20dp"
+                  android:textSize="20dp"
+                  android:text="DIRECTIVO" />
+
+          </LinearLayout>
+
+      </androidx.cardview.widget.CardView>
+
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/cardViewOperario"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginTop="10dp"
+           app:cardElevation="2dp"
+           >
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="horizontal"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               >
+
+               <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:src="@drawable/icon_operario"
+                   android:background="@color/colorAccent"
+                   android:layout_gravity="center_vertical"
+                   android:padding="10dp" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:gravity="center_vertical"
+                   android:layout_marginLeft="20dp"
+                   android:textSize="20dp"
+                   android:text="OPERARIO" />
+
+           </LinearLayout>
+
+       </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewAlumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            app:cardElevation="2dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/icon_alumno"
+                    android:background="@color/colorDarkBlue"
+                    android:layout_gravity="center_vertical"
+                    android:padding="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="20dp"
+                    android:text="ALUMNO" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+   </LinearLayout>
+
+</FrameLayout>

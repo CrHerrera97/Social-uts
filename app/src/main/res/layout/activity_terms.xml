@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activities.TermsActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorBlack" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:background="@color/colorAccent" >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Terms and conditions of use"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="21dp"/>
+
+        </LinearLayout>
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Términos y Condiciones"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="17dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actualizado el 2022-03-17"
+                android:textColor="@color/colorWhite"
+                android:textAlignment="textEnd"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Términos generales"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Al acceder y realizar un pedido con Social Media UTS, usted confirma que está de acuerdo y sujeto a los términos de servicio contenidos en los Términos y condiciones que se describen a continuación. Estos términos se aplican a todo el sitio web y a cualquier correo electrónico u otro tipo de comunicación entre usted y Social Media UTS."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bajo ninguna circunstancia el equipo de Social Media UTS será responsable de ningún daño directo, indirecto, especial, incidental o consecuente, que incluye, entre otros, la pérdida de datos o ganancias que surjan del uso o la incapacidad de usar, los materiales de este sitio, incluso si el equipo de Social Media UTS o un representante autorizado han sido informados de la posibilidad de tales daños. Si su uso de materiales de este sitio resulta en la necesidad de servicio, reparación o corrección de equipos o datos, usted asume los costos de los mismos."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Social Media UTS no será responsable de ningún resultado que pueda ocurrir durante el curso del uso de nuestros recursos. Nos reservamos el derecho de cambiar los precios y revisar la política de uso de recursos en cualquier momento."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Licencia"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Social Media UTS le otorga una licencia revocable, no exclusiva, intransferible y limitada para descargar, instalar y usar la plataforma estrictamente de acuerdo con los términos de este Acuerdo."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estos Términos y condiciones son un contrato entre usted y Social Media UTS (referidos en estos Términos y condiciones como 'Social Media UTS', 'nosotros', o 'nuestro'), el proveedor del sitio web de Social Media UTS y los servicios accesibles desde el sitio web de Social Media UTS (que se denominan colectivamente en estos Términos y condiciones como el 'Servicio de Social Media UTS')."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usted acepta estar sujeto a estos Términos y condiciones. Si no está de acuerdo con estos Términos y condiciones, no utilice el Servicio Social Media UTS. En estos Términos y condiciones, 'usted' se refiere tanto a usted como individuo como a la entidad que representa. Si viola cualquiera de estos Términos y condiciones, nos reservamos el derecho de cancelar su cuenta o bloquear el acceso a su cuenta sin previo aviso."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Definiciones y términos clave"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Para ayudar a explicar las cosas de la manera más clara posible en estos Términos y Condiciones, cada vez que se hace referencia a cualquiera de estos términos, se definen estrictamente como:"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Cookie: pequeña cantidad de datos generados por un sitio web y guardados por su navegador web. Se utiliza para identificar su navegador, proporcionar análisis, recordar información sobre usted, como su preferencia de idioma o información de inicio de sesión."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Compañía: cuando estos Términos y Condiciones mencionan 'Compañía', 'nosotros', 'nos' o 'nuestro', se refiere a Social Media UTS, que es responsable de su información en virtud de estos Términos y Condiciones."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Plataforma: sitio web de Internet, aplicación web o aplicación digital de cara al público de Social Media UTS."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- País: donde se encuentra Social Media UTS o los propietarios / fundadores de Social Media UTS, en este caso es Colombia"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Dispositivo: cualquier dispositivo conectado a Internet, como un teléfono, tablet, computadora o cualquier otro dispositivo que se pueda usar para visitar Social Media UTS y usar los servicios."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Servicio: se refiere al servicio brindado por Social Media UTS como se describe en los términos relativos (si están disponibles) y en esta plataforma."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Terceros: se refiere a anunciantes, patrocinadores de concursos, socios promocionales y de marketing, y otros que brindan nuestro contenido o cuyos productos o servicios que creemos que pueden interesarle."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Usted: una persona o entidad que está registrada con Social Media UTS para utilizar los Servicios."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Restricciones"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usted acepta no hacerlo y no permitirá que otros:"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Licenciar, vender, alquilar, arrendar, asignar, distribuir, transmitir, alojar, subcontratar, divulgar o explotar comercialmente la plataforma o poner la plataforma a disposición de terceros."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Modificar, realizar trabajos derivados, desensamblar, descifrar, realizar una compilación inversa o realizar ingeniería inversa de cualquier parte de la plataforma."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Eliminar, alterar u ocultar cualquier aviso de propiedad (incluido cualquier aviso de derechos de autor o marca registrada) de sus afiliados, socios, proveedores o licenciatarios de la plataforma."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tus sugerencias"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cualquier, comentario, idea, mejora o sugerencia (colectivamente, ‘Sugerencias’) que usted proporcione a Social Media UTS con respecto a la plataforma seguirá siendo propiedad única y exclusiva de Social Media UTS."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Social Media UTS tendrá la libertad de usar, copiar, modificar, publicar o redistribuir las Sugerencias para cualquier propósito y de cualquier manera sin ningún crédito o compensación para usted."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tu consentimiento"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hemos actualizado nuestros Términos y condiciones para brindarle total transparencia sobre lo que se establece cuando visita nuestro sitio y cómo se utiliza. Al utilizar nuestra plataforma, registrar una cuenta o realizar una compra, por la presente acepta nuestros Términos y condiciones."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enlaces a otros Sitios Web"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estos Términos y Condiciones se aplican solo a los Servicios. Los Servicios pueden contener enlaces a otros sitios web que Social Media UTS no opera ni controla. No somos responsables por el contenido, la precisión o las opiniones expresadas en dichos sitios web, y dichos sitios web no son investigados, monitoreados o verificados por nuestra precisión o integridad. Recuerde que cuando utiliza un enlace para ir de los Servicios a otro sitio web, nuestros Términos y condiciones dejan de estar vigentes. Su navegación e interacción en cualquier otro sitio web, incluidos aquellos que tienen un enlace en nuestra plataforma, están sujetos a las propias reglas y políticas de ese sitio web. Dichos terceros pueden utilizar sus propias cookies u otros métodos para recopilar información sobre usted."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cambios en nuestros Términos y Condiciones"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usted reconoce y acepta que Social Media UTS puede dejar de brindarle (de forma permanente o temporal) el Servicio (o cualquier función dentro del Servicio) a usted o a los usuarios en general, a discreción exclusiva de Social Media UTS, sin previo aviso. Puede dejar de utilizar el Servicio en cualquier momento. No es necesario que informe específicamente a Social Media UTS cuando deje de usar el Servicio. Usted reconoce y acepta que si Social Media UTS deshabilita el acceso a su cuenta, es posible que no pueda acceder al Servicio, los detalles de su cuenta o cualquier archivo u otro material contenido en su cuenta."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Si decidimos cambiar nuestros Términos y condiciones, publicaremos esos cambios en esta página y / o actualizaremos la fecha de modificación de los Términos y condiciones a continuación."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modificaciones a nuestra plataforma"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Social Media UTS se reserva el derecho de modificar, suspender o interrumpir, temporal o permanentemente, la plataforma o cualquier servicio al que se conecte, con o sin previo aviso y sin responsabilidad ante usted."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actualizaciones a nuestra plataforma"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Social Media UTS puede, de vez en cuando, proporcionar mejoras a las características / funcionalidad de la plataforma, que pueden incluir parches, corrección de errores, actualizaciones, mejoras y otras modificaciones (‘Actualizaciones’)."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Las actualizaciones pueden modificar o eliminar ciertas características y / o funcionalidades de la plataforma. Usted acepta que Social Media UTS no tiene la obligación de (i) proporcionar Actualizaciones, o (ii) continuar proporcionándole o habilitando características y / o funcionalidades particulares de la plataforma."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Además, acepta que todas las Actualizaciones (i) se considerarán una parte integral de la plataforma y (ii) estarán sujetas a los términos y condiciones de este Acuerdo."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Servicios de Terceros"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Podemos mostrar, incluir o poner a disposición contenido de terceros (incluidos datos, información, aplicaciones y otros servicios de productos) o proporcionar enlaces a sitios web o servicios de terceros (‘Servicios de terceros’)."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usted reconoce y acepta que Social Media UTS no será responsable de ningún Servicio de terceros, incluida su precisión, integridad, puntualidad, validez, cumplimiento de los derechos de autor, legalidad, decencia, calidad o cualquier otro aspecto de los mismos. Social Media UTS no asume ni tendrá ninguna obligación o responsabilidad ante usted o cualquier otra persona o entidad por los Servicios de terceros."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Los Servicios de terceros y los enlaces a los mismos se brindan únicamente para su conveniencia y usted accede a ellos y los usa completamente bajo su propio riesgo y sujeto a los términos y condiciones de dichos terceros."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Duración y Terminación"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Este Acuerdo permanecerá en vigor hasta que usted o Social Media UTS lo rescindan."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Social Media UTS puede, a su entera discreción, en cualquier momento y por cualquier motivo o sin él, suspender o rescindir este Acuerdo con o sin previo aviso."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Este Acuerdo terminará inmediatamente, sin previo aviso de Social Media UTS, en caso de que no cumpla con alguna de las disposiciones de este Acuerdo. También puede rescindir este Acuerdo eliminando la plataforma y todas las copias del mismo de su computadora."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tras la rescisión de este Acuerdo, deberá dejar de utilizar la plataforma y eliminar todas las copias de la plataforma de su computadora."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La rescisión de este Acuerdo no limitará ninguno de los derechos o recursos de Social Media UTS por ley o en equidad en caso de incumplimiento por su parte (durante la vigencia de este Acuerdo) de cualquiera de sus obligaciones en virtud del presente Acuerdo."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Indemnización"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Usted acepta indemnizar y eximir de responsabilidad a Social Media UTS y a sus empresas matrices, subsidiarias, afiliadas, funcionarios, empleados, agentes, socios y otorgantes de licencias (si corresponde) de cualquier reclamo o demanda, incluidos los honorarios razonables de abogados, debido a que surja de su: (a) uso de la plataforma; (b) violación de este Acuerdo o cualquier ley o reglamento; o (c) violación de cualquier derecho de un tercero."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descargo de Responsabilidad"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Social Media UTS no es responsable de ningún contenido, código o cualquier otra imprecisión."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Social Media UTS no ofrece garantías."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="En ningún caso Social Media UTS será responsable de ningún daño especial, directo, indirecto, consecuente o incidental o de cualquier daño, ya sea en una acción contractual, negligencia u otro agravio, que surja de o en conexión con el uso del Servicio o el contenido del Servicio. Social Media UTS se reserva el derecho de realizar adiciones, eliminaciones o modificaciones al contenido del Servicio en cualquier momento sin previo aviso."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El Servicio Social Media UTS y su contenido se proporcionan ‘tal cual’ y ‘según esté disponible’ sin ninguna garantía o representación de ningún tipo, ya sea expresa o implícita. Social Media UTS es un distribuidor y no un editor del contenido proporcionado por terceros; como tal, Social Media UTS no ejerce ningún control editorial sobre dicho contenido y no ofrece ninguna garantía o representación en cuanto a la precisión, confiabilidad o vigencia de cualquier información, contenido, servicio o mercancía proporcionada o accesible a través del Servicio Social Media UTS. Sin limitar lo anterior, Social Media UTS renuncia específicamente a todas las garantías y representaciones en cualquier contenido transmitido en conexión con el Servicio Social Media UTS o en sitios que pueden aparecer como enlaces en el Servicio Social Media UTS, o en los productos proporcionados como parte o en relación con el Servicio Social Media UTS, incluidas, entre otras, las garantías de comerciabilidad, idoneidad para un propósito particular o no infracción de derechos de terceros. Ningún consejo oral o información escrita proporcionada por Social Media UTS o cualquiera de sus afiliados, empleados, funcionarios, directores, agentes o similares creará una garantía. La información sobre precios y disponibilidad está sujeta a cambios sin previo aviso. Sin limitar lo anterior, Social Media UTS no garantiza que el Servicio de Social Media UTS sea ininterrumpido, sin corrupción, oportuno o sin errores."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Envíos y Privacidad"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="En el caso de que envíe o publique ideas, sugerencias creativas, diseños, fotografías, información, anuncios, datos o propuestas, incluidas ideas para productos, servicios, funciones, tecnologías o promociones nuevos o mejorados, acepta expresamente que dichos envíos se realizarán automáticamente. será tratado como no confidencial y no propietario y se convertirá en propiedad exclusiva de Social Media UTS sin ningún tipo de compensación o crédito para usted. Social Media UTS y sus afiliados no tendrán obligaciones con respecto a dichos envíos o publicaciones y pueden usar las ideas contenidas en dichos envíos o publicaciones para cualquier propósito en cualquier medio a perpetuidad, incluyendo, pero no limitado a desarrollo, fabricación, y comercializar productos y servicios utilizando tales ideas."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Información que es recogida"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La aplicación móvil podrá recoger información personal por ejemplo: Nombre,  información de contacto como su dirección de correo electrónica y celular. Así mismo cuando sea necesario podrá ser requerida información específica para generar contenido en la aplicación."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contenido y comportamientos objetables"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El contenido de la aplicación incluye usuario, posts, perfiles de usuario, chats entre usuarios con los cuales los usuarios de la UTS podrán interactuar viendo perfiles, agragando posts, dando 'me gusta' a los post, actualizando datos de perfil, comentar un post e interactuando de persona a persona en chat."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Uso de la información recogida"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La aplicación móvil emplea la información con el fin de proporcionar el mejor servicio posible, particularmente para mantener un registro de usuarios, de post para blog en caso que aplique, y tendrá comunicaciones entre usuarios.  El fin de esta aplicación es meramente académico y por ende los  datos registrados en la aplicación no serán utilizados con otro fin más que para el servicio de los usuarios."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contáctenos"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No dude en contactarnos si tiene alguna pregunta."
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- A través de correo electrónico:  thezizu942@gmail.com"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="30dp"
+                android:textSize="15dp" />
+        </TableLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_arrow_left"
+        android:layout_margin="15dp"
+        android:scaleType="centerCrop"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/PC/AndroidStudioProjects/ProjectSocialUTS/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.16458333333333333" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/drawable/button_border.xml" value="0.16458333333333333" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/drawable/ic_arrow_left.xml" value="0.3611111111111111" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/drawable/ic_description.xml" value="0.3611111111111111" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/drawable/ic_https_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/drawable/ic_person.xml" value="0.1824074074074074" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/drawable/ic_videogame.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/layout/action_bar_toolbar.xml" value="0.20625" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/layout/activity_complete_profile.xml" value="0.11651469098277609" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/layout/activity_edit_profile.xml" value="0.371875" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/layout/activity_home.xml" value="0.371875" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/layout/activity_main.xml" value="0.371875" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/layout/activity_post.xml" value="0.33" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/layout/activity_post_detail.xml" value="0.371875" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/layout/activity_terms.xml" value="0.16955592495844218" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/layout/activity_user_profile.xml" value="0.35625" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/layout/fragment_chats.xml" value="0.2" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/layout/fragment_filters.xml" value="0.18085106382978725" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/layout/fragment_first.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/layout/fragment_profile.xml" value="0.35625" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.20625" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/menu/main_menu.xml" value="0.20625" />
+        <entry key="..\:/Users/thezi/AndroidStudioProjects/SocialMediaUTS/app/src/main/res/layout/activity_main.xml" value="0.1983695652173913" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

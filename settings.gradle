@@ -1,0 +1,14 @@
+import org.gradle.api.initialization.resolve.RepositoriesMode
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+        maven {url 'https://jitpack.io'}
+        maven {url 'https://maven.google.com'}
+    }
+}
+rootProject.name = "ProjectSocialUTS"
+include ':app'

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "853463357771",
+    "project_id": "spartan-apricot-318214",
+    "storage_bucket": "spartan-apricot-318214.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853463357771:android:2d5eeeb1ca51e9a51bb0ce",
+        "android_client_info": {
+          "package_name": "com.uts.socialuts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853463357771-mqp4ir2o371l92isgdajpjiojl1mj8vk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uts.socialuts",
+            "certificate_hash": "213c5ea971c4da72983a7f2baeb8b4a654cfc7ad"
+          }
+        },
+        {
+          "client_id": "853463357771-ctq3qo91mtvulbttlm5183n0506bet7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYf1BeExW6x1UVkeTCNJcYo45iikwDW4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853463357771-ctq3qo91mtvulbttlm5183n0506bet7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

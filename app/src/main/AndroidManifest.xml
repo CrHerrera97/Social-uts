@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uts.socialuts">
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.uts.socialuts.activities.TermsActivity"
+            android:exported="false" />
+        <activity android:name="com.uts.socialuts.activities.ChatActivity" />
+        <activity
+            android:name="com.uts.socialuts.activities.FiltersActivity"
+            android:parentActivityName="com.uts.socialuts.activities.HomeActivity" />
+        <activity
+            android:name="com.uts.socialuts.activities.UserProfileActivity"
+            android:parentActivityName="com.uts.socialuts.activities.PostDetailActivity" />
+        <activity
+            android:name="com.uts.socialuts.activities.PostDetailActivity"
+            android:parentActivityName="com.uts.socialuts.activities.HomeActivity" />
+        <activity android:name="com.uts.socialuts.activities.EditProfileActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.uts.socialuts"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity android:name="com.uts.socialuts.activities.PostActivity" />
+        <activity android:name="com.uts.socialuts.activities.CompleteProfileActivity" />
+        <activity android:name="com.uts.socialuts.activities.HomeActivity" />
+        <activity android:name="com.uts.socialuts.activities.RegisterActivity" />
+        <activity
+            android:name="com.uts.socialuts.activities.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.uts.socialuts.services.MyFirebaseMessagingClient"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <receiver
+            android:name="com.uts.socialuts.receivers.MessageReceiver"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>
