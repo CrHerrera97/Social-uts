@@ -1,0 +1,1 @@
+aplicativo realizado en kotlin y firebase con chat estilo whatsapp
